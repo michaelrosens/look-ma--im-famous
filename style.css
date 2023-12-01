@@ -1,28 +1,29 @@
 .bg-hero-image {
-    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://www.whitehouse.gov/wp-content/uploads/2021/01/07_andrew_jackson.jpg?w=1250');
     background-position: center center;
   }
   
   nav {
-    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 15px 10px 0 rgba(255, 255, 255, 0.2);
   }
   
-  .navbar-brand {
-    font-family: 'Ephesis', cursive;
-    font-size: 50px;
-  }
   
   .nav-link active {
     font-family: 'Rock Salt', cursive;
   }
-  
-  nav {
-    text-align: center;
-  }
 
 
+
+  body {
+    background: linear-gradient(90deg, #8B4513, #D2691E, #A52A2A);
+    background: url('https://wallpapers.com/images/hd/wood-texture-background-58jbszv2ejsai2o6.jpg') repeat;
+
+}
 .font {
-    font-family: 'Rock Salt', cursive;
+  font-family: 'Ephesis', cursive;
+  font-size: 45px;
+  color: white;
+  
   }
   
   .p-font {
@@ -30,9 +31,42 @@
   }
   
   .fontt {
-    font-family: 'Seaweed Script', cursive;
-    color: black;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
   }
-  
+  .fonttt{
+    font-family: 'Ephesis', cursive;
+    font-size: 45px;
+    color: white;
+  }
  
-  
+  .bg-hero-image {
+    padding: 2rem; 
+    height: 900px; 
+    width: 100%; /
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-and-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+
+.text-and-image img {
+  max-width: 50%;
+  height: auto;
+}

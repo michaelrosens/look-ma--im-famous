@@ -70,3 +70,14 @@
   max-width: 50%;
   height: auto;
 }
+
+.paper{
+  height: 600px;
+}
+
+.subtext{
+  font-family: 'Source Serif 4', serif;
+  font-size: 30px;
+  color: white;
+
+}
